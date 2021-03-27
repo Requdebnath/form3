@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background: url(../img/logo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.box{
+	display: flex;
+	position: absolute;
+	left: 26%;
+    top: 26%;
+
+}
+.infomation {
+	flex-basis: 30%;
+	background-color: transparent;
+	padding: 25px;
+	padding-bottom: 13%;
+	border: solid 1px white;
+}
+.infomation h1{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	padding-bottom: 15px;
+
+}
+.infomation p{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	padding-bottom: 25px;
+	font-size: 10px;
+}
+.infomation button{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	padding: 10px 20px;
+	background: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px 0 5px 0;
+	font-size: 12px;
+
+}
+.registration-form{
+	background: white;
+	padding: 25px;
+
+}
+.registration-form h2{
+	font-family: 'Poppins', sans-serif;
+	color: #2c75bb;
+	font-size: 33px;
+	margin-bottom: 18px;
+}
+.registration-form label{
+	display: block;
+}
+.box-one {
+	display: flex;
+}
+.right{
+	flex-basis: 50%;
+	
+}
+label{
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #381903;
+}
+.box-one input {
+	width: 85%;
+	padding: 5px;
+	margin-bottom: 18px;
+}
+.box-two input {
+	width: 92%;
+	padding: 5px;
+	margin-bottom: 18px;
+}
+.box-three input{
+	border-radius: 5px 0 5px 0;
+	border: 2px solid green;
+}
+.checkbox{
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 18px;
+	font-size: 12px;
+}
+.form-btn{
+	width: 30%;
+	padding: 8px;
+	border: none;
+	border-radius: 5px 0 5px 0;
+	background: #2c75bb;
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.form-btn:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+	box-shadow: 3px 3px 3px 3px #a19e9e;
+}
